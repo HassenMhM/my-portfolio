@@ -12,7 +12,7 @@ export const data={
             <br/>Comprehensive Weather Overview: Apart from temperature, humidity, and wind speed, get a complete weather overview including precipitation chances, atmospheric pressure, and more.
             WeatherWeb combines all these features into a sleek, modern interface, making it the perfect weather companion for your daily needs. Get accurate, up-to-date weather information with just a few clicks!`
             </>,
-        img:['/my-portfolio/src/assets/weather-app/weather.png','/my-portfolio/src/assets/weather-app/weatherRes.png'],
+        img:['my-portfolio/src/assets/weather-app/weather.png','/my-portfolio/src/assets/weather-app/weatherRes.png'],
     },
     dental:{
         title:'Dental Health',
