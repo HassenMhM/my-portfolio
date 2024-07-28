@@ -1,0 +1,213 @@
+.myprojects-container .boxes{
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.myprojects-container .box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 0;
+    box-shadow: 0 -2px 8px rgba(124, 124, 124, 0.2), 0 6px 20px rgba(116, 115, 115, 0.19);
+    padding-top: 20px;
+    padding-bottom: 40px;
+    border-radius: 10px;
+}
+.myprojects-container .box:not(:first-child){
+    margin-top: 50px;
+}
+.myprojects-container .box .title{
+    color: white;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.myprojects-container .box p{
+    color: var(--text-color);
+    text-align: start;
+    padding-bottom: 10px;
+}
+.myprojects-container .box .small-title{
+    font-weight: bold;
+}
+.myprojects-container .box .images{
+    position: relative;
+    text-align: center;
+}
+.myprojects-container .box img{
+    max-width: 800px; 
+    opacity: 30%;
+    border-radius: 20px;
+}
+.myprojects-container .box .images .see-more{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: var(--main-color);
+    color: white;
+    padding: 15px 30px 15px 30px;
+    border-radius: 5px;
+    font-size: 17px;
+    border: none;
+    box-shadow: 0 4px 100px rgba(0, 0, 0, 0.2), 0 6px 100px rgba(0, 0, 0, 0.19)
+}
+.myprojects-container .box .images .see-more:hover{
+    cursor: pointer;
+    border-radius: 20px;
+    background-color: brown;
+    transition: 0.5s;
+    box-shadow: var(--shadow-box);
+}
+.myprojects-container .gallery{
+    position: fixed;
+    top: 0;
+    left: 8%;
+    right: 8%;
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    background-color: var(--back-color);
+    padding: 10px;
+    padding-top: 40px;
+    z-index: 5;
+}
+.myprojects-container .gallery div{
+    text-align: center;
+}
+.myprojects-container .gallery div p{
+    color: var(--text-color);
+    font-size: 20px;
+    text-align: center;
+}
+.myprojects-container .gallery img{
+    max-width: 500px;
+    opacity: 100%;
+    max-height: 60%;
+    border-radius: 0;
+    padding: 20px;
+    margin: 10px;
+    animation: shadow-move 1s infinite;
+}
+.myprojects-container .gallery .remove-gallery{
+    position: fixed;
+    right: 4%;
+    border: none;
+    padding-top: 15px;
+    color: var(--text-color);
+    font-size: 60px;
+    z-index: 6;
+    background-color: transparent;
+}
+.myprojects-container .gallery .remove-gallery:hover,
+.myprojects-container .gallery .next-photos:hover{
+    cursor: pointer;
+    color: var(--main-color);
+    font-size: 55px;
+    transition: 0.2s;
+}
+.myprojects-container .gallery .next-photos{
+    position: fixed;
+    right: 4%;
+    border: none;
+    top: 50%;
+    color: var(--text-color);
+    font-size: 60px;
+    z-index: 6;
+    background-color: transparent;
+}
+@media(max-width:767px){
+    .myprojects-container .boxes{
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .myprojects-container .box img{
+        max-width: 300px; 
+        height: 150px;
+    }
+    .myprojects-container .gallery{
+        display:flex;
+        flex-direction: column;
+    }
+    .myprojects-container .gallery img{
+        max-width: 300px;
+        padding: 10px;
+        margin: 20px;
+    }
+    .myprojects-container .gallery .remove-gallery{
+        font-size: 50px;
+    }
+    .myprojects-container .gallery .remove-gallery:hover,
+    .myprojects-container .gallery .next-photos:hover{
+        font-size: 45px;
+    }
+    .myprojects-container .gallery .next-photos{
+        font-size: 50px;
+    }
+}
+@media(max-width:991px){
+    .myprojects-container .boxes{
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .myprojects-container .box img{
+        width: 500px; 
+        height: 250px;
+    }
+    .myprojects-container .gallery{
+        display:flex;
+        flex-direction: column;
+    }
+    .myprojects-container .gallery img{
+        max-width: 600px;
+        padding: 10px;
+        margin: 20px;
+    }
+    .myprojects-container .gallery .remove-gallery{
+        font-size: 50px;
+    }
+    .myprojects-container .gallery .remove-gallery:hover,
+    .myprojects-container .gallery .next-photos:hover{
+        font-size: 45px;
+    }
+    .myprojects-container .gallery .next-photos{
+        font-size: 50px;
+    }
+}
+@media(max-width:500px){
+    .myprojects-container .box {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .myprojects-container .box img{
+        width: 250px; 
+        height: 200px;
+    }
+    .myprojects-container .gallery{
+        display:flex;
+        flex-direction: column;
+    }
+    .myprojects-container .gallery img{
+        width: 250px;
+        padding: 10px;
+        margin: 20px;
+    }
+    .myprojects-container .gallery .remove-gallery{
+        font-size: 40px;
+        right: 2%;
+    }
+    .myprojects-container .gallery .remove-gallery:hover,
+    .myprojects-container .gallery .next-photos:hover{
+        font-size: 35px;
+    }
+    .myprojects-container .gallery .next-photos{
+        font-size: 40px;
+        right: 2%;
+    }
+    .myprojects-container .box .images .see-more{
+        padding: 12px 27px;
+        border-radius: 5px;
+        font-size: 16px;
+        border: none;
+        box-shadow: 0 4px 100px rgba(0, 0, 0, 0.2), 0 6px 100px rgba(0, 0, 0, 0.19)
+    }
+}
