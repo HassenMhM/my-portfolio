@@ -84,7 +84,23 @@
     }
 }
 @media(max-width:500px){
+    .footer-container{
+        padding-top: 0px;
+    }
     .footer-container .social-media a{
         display: none;
+    }
+    .footer-container .about-me p{
+        display: none;
+    }
+    .footer-container .nav-bar a{
+        font-size: 15px;
+    }
+    .footer-container .social-media img {
+        max-width: 28px;
+    }
+    .footer-container .social-media .big{
+        width: 23px;
+        padding-left: 1px;
     }
 }

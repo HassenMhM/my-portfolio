@@ -185,6 +185,8 @@
     .myprojects-container .gallery{
         display:flex;
         flex-direction: column;
+        left: 5%;
+        right: 7%;
     }
     .myprojects-container .gallery img{
         width: 250px;
@@ -204,9 +206,9 @@
         right: 2%;
     }
     .myprojects-container .box .images .see-more{
-        padding: 12px 27px;
+        padding: 10px 24px;
         border-radius: 5px;
-        font-size: 16px;
+        font-size: 14px;
         border: none;
         box-shadow: 0 4px 100px rgba(0, 0, 0, 0.2), 0 6px 100px rgba(0, 0, 0, 0.19)
     }

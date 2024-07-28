@@ -64,3 +64,19 @@
         display: none;
     }   
 }
+@media(max-width:991px){   
+    .contact-container .right .title{
+        font-size: 35px;
+    }
+    .contact-container .right p{
+        font-size: 16px;
+    }
+    .contact-container .contact-menu img{
+        width: 32px;
+    }
+    .contact-container .right a{
+        color: rgb(146, 146, 230);
+        font-size: 15px;
+        padding: 20px;
+    }
+}

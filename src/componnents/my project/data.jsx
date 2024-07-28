@@ -12,7 +12,7 @@ export const data={
             <br/>Comprehensive Weather Overview: Apart from temperature, humidity, and wind speed, get a complete weather overview including precipitation chances, atmospheric pressure, and more.
             WeatherWeb combines all these features into a sleek, modern interface, making it the perfect weather companion for your daily needs. Get accurate, up-to-date weather information with just a few clicks!`
             </>,
-        img:['/weather-app/weather.png','/weather-app/weatherRes.png'],
+        img:['/my-portfolio/src/assets/weather-app/weather.png','/my-portfolio/src/assets/weather-app/weatherRes.png'],
     },
     dental:{
         title:'Dental Health',
@@ -28,13 +28,13 @@ export const data={
             <br/>Educational Videos and Tutorials: Watch informative videos on various dental topics. Our visual content covers everything from basic dental care to advanced procedures, making it easy to understand and follow.
             BrightSmiles is your ultimate destination for all things dental health. Our goal is to empower you with the knowledge and tools you need to maintain a healthy, beautiful smile. Visit our landing page today and take the first step towards better dental health!,
             </>,
-        img:['/dental-health/dental-template.png',
-            '/dental-health/dental-1.png',
-            '/dental-health/dental-2.png',
-            '/dental-health/dental-3.png',
-            '/dental-health/dental-4.png',
-            '/dental-health/dental-5.png',
-            '/dental-health/dental-6.png',]
+        img:['/my-portfolio/src/assets/dental-health/dental-template.png',
+            '/my-portfolio/src/assets/dental-health/dental-1.png',
+            '/my-portfolio/src/assets/dental-health/dental-2.png',
+            '/my-portfolio/src/assets/dental-health/dental-3.png',
+            '/my-portfolio/src/assets/dental-health/dental-4.png',
+            '/my-portfolio/src/assets/dental-health/dental-5.png',
+            '/my-portfolio/src/assets/dental-health/dental-6.png',]
     },
     quiz:{
         title:'Quiz Game',
@@ -57,7 +57,7 @@ export const data={
             Leaderboard and Achievements: Compete with friends and other players to climb the leaderboard. Earn achievements for milestones and high scores.<br/>
             Quiz Game is perfect for anyone looking to test their knowledge, learn new facts, and have fun all at the same time. With its diverse question categories and customizable difficulty levels, it's the ultimate quiz game for trivia lovers everywhere. Are you ready to become the QuizMaster?
             </>,
-        img:['/quiz-game/quiz.png','/quiz-game/quiz1.png','/quiz-game/quiz2.png'],
+        img:['/my-portfolio/src/assets/quiz-game/quiz.png','/my-portfolio/src/assets/quiz-game/quiz1.png','/my-portfolio/src/assets/quiz-game/quiz2.png'],
     },
     kasper:{
         title:'Kasper',
@@ -76,15 +76,15 @@ export const data={
             Pricing: Transparency is key at Kasper. Our pricing page provides detailed information on our packages and rates. Whether you're looking for a single project or a comprehensive design solution, we offer competitive pricing to suit your budget.<br/>
             Contact: We’re here to help! Reach out to us with any inquiries, project ideas, or requests for quotes. Our contact page provides multiple ways to get in touch, ensuring you can easily connect with our team.
             </>,
-        img:['/kasper/kasper1.png',
-            '/kasper/kasper2.png',
-            '/kasper/kasper3.png',
-            '/kasper/kasper4.png',
-            '/kasper/kasper5.png',
-            '/kasper/kasper6.png',
-            '/kasper/kasper7.png',
-            '/kasper/kasper8.png',
-            '/kasper/kasper9.png',
-            '/kasper/kasper10.png',]
+        img:['/my-portfolio/src/assets/kasper/kasper1.png',
+            '/my-portfolio/src/assets/kasper/kasper2.png',
+            '/my-portfolio/src/assets/kasper/kasper3.png',
+            '/my-portfolio/src/assets/kasper/kasper4.png',
+            '/my-portfolio/src/assets/kasper/kasper5.png',
+            '/my-portfolio/src/assets/kasper/kasper6.png',
+            '/my-portfolio/src/assets/kasper/kasper7.png',
+            '/my-portfolio/src/assets/kasper/kasper8.png',
+            '/my-portfolio/src/assets/kasper/kasper9.png',
+            '/my-portfolio/src/assets/kasper/kasper10.png',]
     },
 }
