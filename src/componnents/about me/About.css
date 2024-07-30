@@ -114,8 +114,6 @@
     }
     .about-container{
         padding-top: 0;
-        flex-direction: column;
-        text-align: center;
     }
     .about-container .left-side{
         position: relative;
@@ -135,33 +133,42 @@
     }
 }
 @media(max-width:500px){
+    .about-container .right-side{
+        position: relative;
+    }
     .about-container .right-side img {
-        width: 700px;
-        height: 470px;
-        right: -120px;
-        top: 90px;
+        top: -400px;
+        height: 700px;
+        width: 550px;
+        object-fit: cover;
+    }
+    .about-container{
+        flex-direction: column;
+        text-align: center;
     }
     .about-container .left-side{
         top: -40px;
     }
     .about-container .left-side .me {
-        padding: 6px;
-        font-size: 13px;
-        width: 28%;
+        padding: 8px;
+        font-size: 15px;
+        width: 30%;
     }
     .about-container .left-side .name{
-        font-size: 25px;
+        font-size: 28px;
+        margin-top: 10px;
     }
     .about-container .left-side p{
-        font-size: 12px;
+        font-size: 14px;
+        margin-bottom: 15px;
     }
     .about-container .buttons a:first-child{
-        padding: 13px 22px;
-        font-size: 13px;
+        padding: 15px 25px;
+        font-size: 15px;
     }
     .about-container .buttons a:last-child{
-        font-size: 13px;
-        padding: 12px 21px;
+        font-size: 15px;
+        padding: 14px 24px;
     }
     @keyframes slowly {
         0%{
@@ -173,13 +180,13 @@
     }
     @keyframes move {
         0% {
-            transform: translateX(150%);
+            transform: translateX(140%);
         }
         50%{
-            transform: translateX(60%);
+            transform: translateX(43%);
         }
         100% {
-            transform: translateX(150%);
+            transform: translateX(140%);
         }
     }
 }
