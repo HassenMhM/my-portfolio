@@ -107,17 +107,6 @@
     }
 }
 @media(max-width:767px){
-    @keyframes move-right {
-        0%{
-            left: 5%;
-        }
-        50%{
-            left: 10%;
-        }
-        100%{
-            left: 5%;
-        }
-    }
     .about-container .right-side img {
         width: 600px;
         animation: none;
@@ -130,7 +119,6 @@
         position: relative;
         padding-top: 0;
         top: -160px;
-        animation: move-right infinite 10s;
     }
     .about-container .left-side .name{
         font-size: 50px;
@@ -146,24 +134,32 @@
 }
 @media(max-width:500px){
     .about-container .right-side img {
-        width: 500px;
+        width: 600px;
+        height: 410px;
+        right: -90px;
+        top: 90px;
     }
     .about-container .left-side{
-        top: -150px;
+        top: -80px;
+        left: 5%;
     }
     .about-container .left-side .me {
-        padding: 8px;
-        width: 30%;
+        padding: 6px;
+        font-size: 13px;
+        width: 28%;
     }
     .about-container .left-side .name{
-        font-size: 30px;
+        font-size: 25px;
+    }
+    .about-container .left-side p{
+        font-size: 12px;
     }
     .about-container .buttons a:first-child{
-        padding: 15px 25px 15px 25px;
-        font-size: 15px;
+        padding: 13px 22px;
+        font-size: 13px;
     }
     .about-container .buttons a:last-child{
-        font-size: 15px;
-        padding: 14px 24px;
+        font-size: 13px;
+        padding: 12px 21px;
     }
 }

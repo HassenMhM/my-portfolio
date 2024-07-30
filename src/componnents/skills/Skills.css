@@ -62,6 +62,14 @@
 }
 @media(max-width:500px){
     .section-title{
-        font-size: 35px;
+        font-size: 28px;
+    }
+    
+    .skills-container .section-title{
+        margin-top: 120px;
+    }
+    .skills-container .boxes .box img {
+        width: 100px;
+        height: 95px;
     }
 }
