@@ -6,7 +6,7 @@ export function Header(){
     <div className="header">
         <p className="title">MH<span>||</span>Dev</p>
         <div className="buttons">
-            <a href="#about">About Me</a>
+            <button>About Me</button>
             <a href="#skills">My Skills</a>
             <a href="#projects">My Projects</a>
             <a href="#blog">Blog</a>

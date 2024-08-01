@@ -138,7 +138,7 @@
     }
     .about-container .right-side img {
         top: -400px;
-        height: 700px;
+        height: 600px;
         width: 550px;
         object-fit: cover;
     }
@@ -180,13 +180,16 @@
     }
     @keyframes move {
         0% {
-            transform: translateX(140%);
+            transform: translateX(133%);
         }
         50%{
-            transform: translateX(43%);
+            transform: translateX(66%);
         }
         100% {
-            transform: translateX(140%);
+            transform: translateX(133%);
         }
+    }
+    .about-container .left-side .name::before{
+        right: 22%;
     }
 }

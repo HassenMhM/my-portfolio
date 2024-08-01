@@ -17,19 +17,20 @@
     display: flex;
     flex-direction: row;
 }
-.header .buttons a {
+.header .buttons a,.header .buttons button {
     margin-left: 20px;
     margin-right: 20px;
     padding: 20px;
     padding-right: 0;
     color: rgb(216, 216, 216);
+    border: none;
 }
-.header .buttons a:hover{
+.header .buttons a:hover,.header .buttons button:hover{
     padding-top: 22px;
     transition: 0.5s;
     color: var(--main-color);
 }
-.header .buttons a:nth-child(1){
+.header .buttons button{
     background-color: var(--main-color);
     padding-right: 20px;
 }
@@ -76,7 +77,7 @@
         transition: 0.5s;
         border-radius: 0;
     }
-    .header .buttons a:hover{
+    .header .buttons a:hover,.header .buttons button:hover{
         color: white;
         font-size: 17px;
         transition: 0.5s;
